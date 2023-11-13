@@ -265,6 +265,12 @@ nav .customNavLogoPadding2 {
     padding: 10px;
 }
 
+.services .hp {
+    color: #333333b7;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
 .services .row {
     display: flex;
     margin-top: 5%;
