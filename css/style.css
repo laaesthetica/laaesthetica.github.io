@@ -176,23 +176,28 @@ nav .customNavLogoPadding2 {
     position: relative;
 }
 
+.text-box-parent {
+    margin-top: 30px;
+}
+
 .text-box {
-    /* width: 80%; */
+    /* width: 500px; */
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin: 1px solid #333;
-    padding: 100px;
+    /* margin: 30px auto; */
+    padding: 75px;
     border-radius: 30px;
     background-color: #33333349;
     backdrop-filter: blur(20px);
+    transform: 500ms;
 }
 
 .text-box h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .text-box p {
@@ -222,17 +227,45 @@ nav .customNavLogoPadding2 {
 
 
 
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
+
+    .text-box {
+        width: 600px;
+        transition: 500ms;
+    }
+
     .text-box h1 {
         font-size: 2rem;
         transition: 500ms;
     }
 
     .text-box p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        transition: 500ms;
+    }
+    
+}
+
+@media(max-width: 800px) {
+
+    .text-box {
+        width: 400px;
         transition: 500ms;
     }
 
+    .text-box h1 {
+        font-size: 1.5rem;
+        transition: 500ms;
+    }
+
+    .text-box p {
+        font-size: 0.9rem;
+        transition: 500ms;
+    }
+
+    .hero-btn {
+        font-size: 0.8rem;
+    }
     
 }
 
