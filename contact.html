@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/map-style.css" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="/"><img class="customNavLogoPadding1" src="img/logo-d2.jpg" alt="logo"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa2 fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/" onclick="hideMenu()">Home</a></li>
+                <li><a href="cosmetic-procedures.html" onclick="hideMenu()">Cosmetic</a></li>
+                <!-- <li><a href="/#gallery" onclick="hideMenu()">Before & After Photos</a></li> -->
+                <li><a href="coming-soon.html" onclick="hideMenu()">Before & After Photos</a></li>
+                <!-- <li><a href="surgeon.html" onclick="hideMenu()">Find a Surgeon</a></li> -->
+                <li><a href="coming-soon.html" onclick="hideMenu()">Find a Surgeon</a></li>
+                <!-- <li><a href="#facilities" onclick="hideMenu()">Facilities</a></li> -->
+                <!-- <li><a href="#reviews" onclick="hideMenu()">Reviews</a></li> -->
+                <li><a href="contact.html" onclick="hideMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- Contact Us -->
+    <section class="find-surgeon">
+
+        <div class=".contact-us-page">
+            <h1>CONTACT US</h1>
+
+            <div class="contact-address">
+                <h2>La Aesthetica</h2>
+                <!-- <p>City Hospital & Daignostic Center, House No #1, 8 Satmasjid Road, Dhaka 1207</p> -->
+                <p>12/1, Sangsad Avenue, Monipuripara, Dhaka</p>
+                <p>Call us at: +8801712-465966</p>
+                <p>Office Hours: 09:00AM - 06:00PM</p>
+                <p>Open Days: Sunday - Friday</p>
+            </div>
+
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                        marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=12/1, Sangsad Avenue, Monipuripara, Dhaka&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                        href="https://gachanox.io/">Gacha Nox</a></div>
+            </div>
+        </div>
+
+        <div class="surgeon-grid">
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-parent">
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>If you are looking for plastic surgery, look no further than La Aesthetica. We have a team of skilled and
+                experienced surgeons who can transform your appearance with amazing results. La Aesthetica is the place
+                where you can be yourself and feel beautiful.</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            // navLinks.style.display = "inline";
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            // navLinks.style.display = "none";
+            navLinks.style.right = "-400px";
+        }
+    </script>
+
+</body>
+
+</html>

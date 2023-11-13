@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Surgeon</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="/"><img class="customNavLogoPadding1" src="img/logo-d2.jpg" alt="logo"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa2 fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/" onclick="hideMenu()">Home</a></li>
+                <li><a href="cosmetic-procedures.html" onclick="hideMenu()">Cosmetic</a></li>
+                <!-- <li><a href="/#gallery" onclick="hideMenu()">Before & After Photos</a></li> -->
+                <li><a href="coming-soon.html" onclick="hideMenu()">Before & After Photos</a></li>
+                <!-- <li><a href="surgeon.html" onclick="hideMenu()">Find a Surgeon</a></li> -->
+                <li><a href="coming-soon.html" onclick="hideMenu()">Find a Surgeon</a></li>
+                <!-- <li><a href="#facilities" onclick="hideMenu()">Facilities</a></li> -->
+                <!-- <li><a href="#reviews" onclick="hideMenu()">Reviews</a></li> -->
+                <li><a href="contact.html" onclick="hideMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <section class="find-surgeon">
+
+        <h1>FIND A PLASTIC SURGEON</h1>
+
+        <div class="surgeon-grid">
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person A</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person B</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person C</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person D</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person E</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="base-grid">
+                <img src="img/cafeteria.png" alt="profile-pic">
+                <div>
+                    <h4>Person F</h4>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-parent">
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>If you are looking for plastic surgery, look no further than La Aesthetica. We have a team of skilled and
+                experienced surgeons who can transform your appearance with amazing results. La Aesthetica is the place
+                where you can be yourself and feel beautiful.</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            // navLinks.style.display = "inline";
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            // navLinks.style.display = "none";
+            navLinks.style.right = "-400px";
+        }
+    </script>
+
+</body>
+
+</html>
